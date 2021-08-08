@@ -9,9 +9,16 @@ class AboutUsPage extends StatefulWidget {
 class _AboutUsPageState extends State<AboutUsPage> {
   @override
   Widget build(BuildContext context) {
+    final textTheme = Theme.of(context).textTheme;
     return SafeArea(
       child: Scaffold(
-        body: Container(),
+        body: Center(
+          child: Text(
+            "ニュースふぃーど",style: textTheme.bodyText2!.copyWith(
+            fontWeight: FontWeight.bold
+          ),
+          ),
+        ),
       ),
     );
   }

@@ -32,3 +32,4 @@ class _CategoryChipsState extends State<CategoryChips> {
     );
   }
 }
+
